@@ -1,0 +1,26 @@
+﻿@model NombreEquipos
+
+@{
+    ViewData["Title"] = "Crear nombre de equipo";
+}
+<h2>Registro de Equipos de Futbool</h2>
+<h5>Ingrese el nombre de su equipo</h5>
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="Crear">
+    <div class="mb-3">
+        <label asp-for="NombreEquipo" class="form-label">Nombre de Equipo</label>
+        <input type="text" asp-for="NombreEquipo" id="NombreEquipo" name="NombreEquipo" class="form-control" />
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="FechaCreacion" class="form-label">Fecha de Creación</label>
+        <input type="date" asp-for="FechaCreacion" id="FechaCreacion" name="FechaCreacion" class="form-control" />
+
+    </div>
+    <div class="mb-3">
+        <label asp-for="Logo" class="form-label">Logo</label>
+        <input type="text" asp-for="Logo" id="FechaCreacion" name="Logo" class="form-control" />
+
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
