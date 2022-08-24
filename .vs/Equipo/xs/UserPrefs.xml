@@ -5,20 +5,17 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Equipo/Models/NombreEquipo.cs">
-    <Files>
-      <File FileName="Equipo/appsettings.json" Line="12" Column="2" />
-      <File FileName="Equipo/Program.cs" Line="27" Column="1" />
-      <File FileName="Equipo/Controllers/NombreEquiposController.cs" Line="4" Column="54" />
-      <File FileName="Equipo/Models/NombreEquipo.cs" Line="14" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Equipo" expanded="True">
-            <Node name="Equipo" expanded="True" selected="True">
+          <Node name="Equipo" expanded="True" selected="True">
+            <Node name="Equipo" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="NombreEquipos" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
